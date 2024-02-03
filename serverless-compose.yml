@@ -1,0 +1,17 @@
+services:
+  #user-mgmt
+  # user-mgmt-api:
+  #   path: user-mgmt-api
+ 
+
+  transaction-api:
+    path: api-library/customer-service
+    # params: 
+    #   UserPoolClient: ${user-mgmt-api.cognitoAppClientName}
+    #   UserPoolId: ${user-mgmt-api.cognitoUserPoolName}
+
+  user-api:
+    path: api-library/customer-service
+    # params: 
+    #   UserPoolClient: ${user-mgmt-api.cognitoAppClientName}
+    #   UserPoolId: ${user-mgmt-api.cognitoUserPoolName}

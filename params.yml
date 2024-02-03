@@ -1,0 +1,13 @@
+dev:
+  db-name: "**********"
+  db-username: "*****"
+  db-password: "***********"
+  db-host: "@***********"
+  project: "payment-gateway"
+
+prod:
+  db-name: "********"
+  db-username: "*****"
+  db-password: "***********"
+  db-host: "@***********"
+  project: "payment-gateway"

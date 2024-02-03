@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@functions/*": ["src/functions/*"],
+      "@libs/*": ["src/libs/*"],
+      "@npm/*": ["../../npm-library/nodejs/node_modules/*"],
+      "@commonLib/*": ["../../common-library/nodejs/node_modules/*"]
+    }
+  }
+}
